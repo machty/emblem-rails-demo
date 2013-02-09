@@ -3,6 +3,10 @@ h1
 
 h2 via the <a href="https://github.com/machty/ember-rails">ember-rails</a> plugin
 
+p 
+  a href="https://github.com/machty/emblem-rails-demo" Check out the demo code.
+
+
 ul
   li Indentation-based
   li JavaScript-compiled
