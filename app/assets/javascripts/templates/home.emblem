@@ -1,0 +1,35 @@
+h1 
+  a href="https://github.com/machty/emblem" Emblem.js Demo
+
+h2 via the <a href="https://github.com/machty/ember-rails">ember-rails</a> plugin
+
+ul
+  li Indentation-based
+  li JavaScript-compiled
+  li Internally compiles to Handlebars, full compatibility with Ember.js
+
+h3 Flexibility, least surprise, few different ways to do similar things
+
+p
+  button click='addToList' Click me.
+  button{ action addToList } Click me.
+
+.row
+  .span6
+    ul
+      each list
+        partial futz
+      else
+        li Nothing here yet.
+
+  .span6
+    ul = each list
+      li My name is #{name}
+    else
+      li Nothing here yet.
+
+p
+  img src="/assets/home.png"
+
+p
+  img src="/assets/application.png"
