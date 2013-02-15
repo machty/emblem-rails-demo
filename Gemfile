@@ -27,5 +27,5 @@ end
 
 gem 'jquery-rails'
 
-# Use machty's Emblem-enabled fork of ember-rails.
-gem 'ember-rails', github: "machty/ember-rails"
+gem 'ember-rails', github: "emberjs/ember-rails"
+gem 'emblem-rails'

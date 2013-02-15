@@ -12,9 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require handlebars-runtime
+//= require handlebars.runtime
 //= require ember
-//= require ember-data
+// require ember-data
 //= require_self
 //= require emblemtest
 Emblemtest = Ember.Application.create({
