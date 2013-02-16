@@ -27,5 +27,5 @@ end
 
 gem 'jquery-rails'
 
-gem 'ember-rails', github: "emberjs/ember-rails"
+gem "ember-rails"
 gem 'emblem-rails'
