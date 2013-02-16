@@ -27,5 +27,5 @@ end
 
 gem 'jquery-rails'
 
-gem "ember-rails"
+gem 'ember-rails'
 gem 'emblem-rails'
