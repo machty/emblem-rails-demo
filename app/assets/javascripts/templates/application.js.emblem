@@ -1,14 +1,11 @@
 .navbar
   .navbar-inner
     .container
-      linkTo .brand "home" 
-        | Emblem.js Demo
+      linkTo .brand "home" | Emblem.js Demo
 
       ul.nav
-        li = linkTo "about"
-          | About
-        li = linkTo "favorites"
-          | Favorites
+        li = linkTo "about"     | About
+        li = linkTo "favorites" | Favorites
 
 .container
   outlet

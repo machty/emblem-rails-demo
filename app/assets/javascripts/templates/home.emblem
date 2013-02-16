@@ -6,11 +6,11 @@ h2 via the <a href="https://github.com/machty/ember-rails">ember-rails</a> plugi
 p 
   a href="https://github.com/machty/emblem-rails-demo" Check out the demo code.
 
-
 ul
   li Indentation-based
   li JavaScript-compiled
   li Internally compiles to Handlebars, full compatibility with Ember.js
+
 
 h3 Flexibility, least surprise, few different ways to do similar things
 
@@ -37,3 +37,4 @@ p
 
 p
   img src="/assets/application.png"
+
