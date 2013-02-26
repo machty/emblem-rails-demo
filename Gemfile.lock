@@ -1,5 +1,7 @@
-PATH
-  remote: ../gits/ember-rails
+GIT
+  remote: git://github.com/machty/ember-rails.git
+  revision: 50e4f993f71ab1b97ba06fcffcf34ed1be48bfe6
+  branch: ember-source
   specs:
     ember-rails (0.10.2)
       active_model_serializers
