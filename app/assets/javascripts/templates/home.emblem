@@ -38,4 +38,11 @@ p
 p
   img src="/assets/application.png"
 
-partial vanilla
+p Ember partial:
+partial somepartial
+= partial somepartial
+
+p Vanilla HB partials:
+> vanilla
+| Check it: #{>vanilla} {{>vanilla}}
+

@@ -1,7 +1,5 @@
-GIT
-  remote: git://github.com/machty/ember-rails.git
-  revision: 69d89e44e28db8a3f1645aa824beca71870dbf94
-  branch: ember-source
+PATH
+  remote: ../gits/ember-rails
   specs:
     ember-rails (0.10.2)
       active_model_serializers
@@ -61,12 +59,12 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.4.0)
-    ember-source (1.0.0.rc1.1)
-      handlebars-source (= 1.0.0.rc3)
+    ember-source (1.0.0.rc1.2)
+      handlebars-source (>= 1.0.0.rc3, < 1.0.0.rc4)
     emblem-rails (0.0.8)
       barber-emblem (~> 0.1.1)
       ember-rails (>= 0.10.2)
-    emblem-source (0.1.8)
+    emblem-source (0.1.11)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
@@ -139,9 +137,8 @@ DEPENDENCIES
   bootstrap-sass-rails
   coffee-rails (~> 3.2.1)
   ember-rails!
-  ember-source (= 1.0.0.rc1.1)
-  emblem-rails (~> 0.0.8)
-  handlebars-source (= 1.0.0.rc3)
+  ember-source (= 1.0.0.rc1.2)
+  emblem-rails
   jquery-rails
   pg
   rails (= 3.2.11)

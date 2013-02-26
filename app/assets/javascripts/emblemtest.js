@@ -3,5 +3,6 @@
 //= require_tree ./views
 //= require_tree ./helpers
 //= require_tree ./templates
+//= require ./partials
 //= require ./router
 //= require_self
