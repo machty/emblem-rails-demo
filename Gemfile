@@ -27,10 +27,8 @@ end
 
 gem 'jquery-rails'
 
-gem 'ember-rails', git: "git://github.com/machty/ember-rails.git", branch: "ember-source"
-#gem 'ember-rails', path: "../gits/ember-rails"
+gem 'ember-rails'
 gem 'emblem-rails'
-gem 'ember-source', '1.0.0.rc1.2'
 
 # Older version
 #gem 'ember-source', '1.0.0.pre4.2'
