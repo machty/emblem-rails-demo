@@ -1,1 +1,7 @@
 h1 Manage Users
+
+p Just for kicks, if you transition back to the homepage,
+  an alert() will fire. Try this both by clicking
+  "Emblemjs Demo", or by starting at the home page,
+  clicking Admin Users, and then using the back button.
+  

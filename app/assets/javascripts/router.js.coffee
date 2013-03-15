@@ -31,3 +31,11 @@ Emblemtest.AdminManageWidgetsRoute = Ember.Route.extend
   setupController: (controller) ->
     controller.set('name', "")
 
+Emblemtest.AdminManageUsersRoute = Ember.Route.extend
+  transitions:
+    'to home': (e) ->
+      # Note that we're not actually preventing a transition here.
+      # You can just use this as a hook for whatever action,
+      # perhaps a google analytics thing, or some animation, whatever.
+      alert "You are now transitioning back to '/'"
+
