@@ -3,4 +3,10 @@ h1 Login
 p Pretend this is a form and click the button below to sign in
   and grant you access to the admin menu items.
 
+p Note that clicking any of the admin links before you've logged in
+  will redirect you here. They're just normal linkTo's pointing
+  to their expected destination, but Admin Route has a transition
+  handler that makes sure everyone that visits it has logged in,
+  else redirect.
+
 button click="login" Click here to login

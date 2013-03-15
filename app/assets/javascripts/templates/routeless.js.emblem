@@ -1,0 +1,23 @@
+h1 States without URLs
+
+p These states are only accessible by transitionTo
+
+p Notice how the URL didn't change.
+
+p stateOne and stateTwo are linked by the linkTo helper, so
+  their 'url' still shows up when you hover, but you can use
+  `action transitionToRoute "stateThree"`, which is what
+  stateThree's link does, to hide the fake URLs.
+
+p TODO: add a hook for pushState so that you have the option of
+  making these states back/forward-able.
+
+ul
+  li = linkTo 'routeless.index' | Index
+  li = linkTo 'routeless.stateOne'   | State One
+  li = linkTo 'routeless.stateTwo'   | State Two
+  li 
+    / Sorry, the HB equivalent would be <a href="#" {{action transitionToRoute 'stateThree'}}>
+    a href="#" click="transitionToRoute 'routeless.stateThree'" State Three
+
+outlet

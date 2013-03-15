@@ -10,6 +10,7 @@
         li = linkTo "admin.manageWidgets" | Admin Widgets
         li = linkTo "admin.manageThings"  | Admin Things
         li = linkTo "login" | Login
+        li = linkTo "routeless.index"  | URL-less states demo
 
 .container
   outlet

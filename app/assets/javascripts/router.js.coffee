@@ -10,6 +10,11 @@ Emblemtest.Router.map ->
     @route "manageWidgets"
     @route "manageThings"
 
+  @resource "routeless", ->
+    @route "stateOne"
+    @route "stateTwo"
+    @route "stateThree"
+
 Emblemtest.Router.reopen
   location: 'history'
 
@@ -39,3 +44,13 @@ Emblemtest.AdminManageUsersRoute = Ember.Route.extend
       # perhaps a google analytics thing, or some animation, whatever.
       alert "You are now transitioning back to '/'"
 
+# TODO: make this happen automatically by the Router.map DSL,
+# perhaps with this.state instead of this.route, so that
+# you don't have to manually extend all URL-less routes.
+Emblemtest.State = Ember.Route.extend
+  notAccessibleByURL: true
+
+Emblemtest.RoutelessIndexRoute = Emblemtest.State.extend()
+Emblemtest.RoutelessStateOneRoute = Emblemtest.State.extend()
+Emblemtest.RoutelessStateTwoRoute = Emblemtest.State.extend()
+Emblemtest.RoutelessStateThreeRoute = Emblemtest.State.extend()
