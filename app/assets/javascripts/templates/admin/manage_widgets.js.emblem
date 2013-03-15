@@ -1,0 +1,7 @@
+h1 Manage Widgets
+
+p If you type stuff in the field below, navigation will be prevented, whether
+  via transitionTo or a url change (handleURL)
+
+p
+  Ember.TextField valueBinding="name"

@@ -5,7 +5,11 @@
 
       ul.nav
         li = linkTo "about"     | About
-        li = linkTo "favorites" | Favorites
+        / li = linkTo "favorites" | Favorites
+        li = linkTo "admin.manageUsers"   | Admin Users
+        li = linkTo "admin.manageWidgets" | Admin Widgets
+        li = linkTo "admin.manageThings"  | Admin Things
+        li = linkTo "login" | Login
 
 .container
   outlet

@@ -31,4 +31,4 @@ gem 'ember-rails'
 gem 'emblem-rails'
 
 # Older version
-#gem 'ember-source', '1.0.0.pre4.2'
+gem 'ember-source', '1.0.0.pre4.2'

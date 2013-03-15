@@ -1,0 +1,6 @@
+h1 Login
+
+p Pretend this is a form and click the button below to sign in
+  and grant you access to the admin menu items.
+
+button click="login" Click here to login
